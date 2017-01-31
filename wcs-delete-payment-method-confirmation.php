@@ -27,9 +27,9 @@
  * @since		1.0
  */
 
-function wcs_delete_payment_method_confirmation() {
-	if (is_account_page()) {
-    wp_enqueue_script( 'wcs-delete-payment-method-confirmation-script', plugin_dir_url( __FILE__ ) . 'wcs-delete-payment-method-confirmation.js', array( 'jquery' ), '1.0.0', true  );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'wcs_delete_payment_method_confirmation' );
+ function wcs_delete_payment_method_confirmation() {
+   if (is_account_page()) {
+     wp_enqueue_script( 'wcs-delete-payment-method-confirmation-script', plugin_dir_url( __FILE__ ) . 'wcs-delete-payment-method-confirmation.js', array( 'jquery' ), '1.0.0', true  );
+   }
+ }
+ add_action( 'wp_enqueue_scripts', 'wcs_delete_payment_method_confirmation' );
