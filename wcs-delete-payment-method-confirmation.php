@@ -6,6 +6,10 @@
  * Author: Prospress Inc.
  * Author URI: http://prospress.com/
  * Version: 1.0
+ * License: GPLv3
+ *
+ * GitHub Plugin URI: Prospress/woocommerce-subscriptions-importer-exporter
+ * GitHub Branch: master
  *
  * Copyright 2017 Prospress, Inc.  (email : freedoms@prospress.com)
  *
